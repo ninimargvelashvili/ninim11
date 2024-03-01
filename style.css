@@ -1,0 +1,50 @@
+body{
+   
+    background-color: black;
+    text-align: center;
+}
+
+.circle{
+    width: 100px;
+    padding: 50px  0%;
+    line-height: 0%;
+    margin:auto;
+    background-color: rgb(222, 73, 122);
+    color: rgb(239, 73, 164);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.circle:hover{
+    background-color: hotpink;
+    transform: rotate(360deg);
+
+}
+
+.hellokitty{
+    height: 150px;
+    width: 200px;
+    border-radius: 5px;
+    position: absolute;
+    animation-name: kitty;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes kitty{
+    from{ transform: translateX(-200px);}
+    to{ transform: translateX(1000px);}
+}
+
+/*
+.road{
+    width: 3000px;
+    height: 190px;
+    background-color: dimgray;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    */
